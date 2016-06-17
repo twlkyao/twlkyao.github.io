@@ -2,7 +2,7 @@
 layout: default
 title: About Me
 ---
-## {{ page.title }}
+# {{ page.title }}
 
 Something about me
 
