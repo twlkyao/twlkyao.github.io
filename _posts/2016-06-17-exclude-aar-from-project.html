@@ -5,12 +5,12 @@ title: 排除特定aar（exclude-aar-from-project）
 
 <h2>{{page.title}}</h2>
 <p>When you are using Android Studio to build your project, since it use maven depedences, you may encounter that some aars contains different base aars, and you want to exclude them, you can add lines as follows:<br>
-<code>configurations {
-    all*.exclude group: 'your-group_id', module: 'your-artifact_id'
-}</code>
+<strong><code>configurations {<br>
+    all*.exclude group: 'your-group_id', module: 'your-artifact_id'<br>
+}</code></strong>
 </p>
 In Chinese:<br>
 <p>当你使用Android Studio构建你的Android工程的时候，可能会遇到由于使用多个aar，然后aar又使用不同版本的底层的库导致的不一致，这时可以使用类似下边的代码将你不想使用的库排除出去<br>
-<code>configurations {
-    all*.exclude group: 'your-group_id', module: 'your-artifact_id'
-}</code>
+<strong><code>configurations {<br>
+    all*.exclude group: 'your-group_id', module: 'your-artifact_id'<br>
+}</code></strong>
