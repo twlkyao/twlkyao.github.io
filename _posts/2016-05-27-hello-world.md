@@ -6,12 +6,16 @@ title: About Me
 
 Something about me
 
-## Company: Tencent
+## Company:  
+Tencent
 
-## WeChat: 1057126256
+## WeChat:  
+1057126256
 
-## Specialisation: Android
+## Specialisation:  
+Android
 
-## Interest: iOS, Web, Big Data  
+## Interest:  
+iOS, Web, Big Data  
 
 <p>{{ page.date | date_to_string }}</p>
