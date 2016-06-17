@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 排除特定aar（exclude-aar-from-project）
+title: exclude-aar-from-project（排除特定aar）
 ---
 
 # {{page.title}}
@@ -10,7 +10,7 @@ When you are using Android Studio to build your project, since it use maven depe
 ```gradle
 configurations {  
     all*.exclude group: 'your-group_id', module: 'your-artifact_id'  
-}
+}  
 ```
 
 In Chinese:  
@@ -20,5 +20,6 @@ In Chinese:
 configurations {  
     all*.exclude group: 'your-group_id', module: 'your-artifact_id'  
 }  
+```
 
 <p>{{ page.date | date_to_string }}</p>
